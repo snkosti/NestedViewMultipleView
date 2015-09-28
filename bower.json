@@ -1,0 +1,24 @@
+{
+  "name": "Routing",
+  "version": "0.0.1",
+  "authors": [
+    "Rajiv Mehta <rajiv.mehta@live.in>"
+  ],
+  "description": "This template is for angular folder structure for Experiments.",
+  "keywords": [
+    "AngularJS",
+    "Template"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "gsap": "~1.18.0"
+  }
+}

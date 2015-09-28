@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.db-button{
+    outline: none;
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

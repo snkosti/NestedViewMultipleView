@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html ng-app="xchange">
+<head>
+    <title>IndexDB Example</title>
+    <link href="css/style.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+    
+    <script src="bower_components/angular/angular.js"></script>
+    <!--<script src="bower_components/lodash/lodash.js"></script>-->
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/gsap/src/minified/TimelineLite.min.js"></script>
+
+</head>
+<body>
+    <span>Multiple views</span>
+    <!--<a ui-sref="multipleview">Multiple view</a>-->
+    <div style="background-color:lawngreen" ui-view="filters">
+
+</div>
+<div style="background-color:palevioletred" ui-view="griddata">
+
+</div>
+<div style="background-color:papayawhip" ui-view="footer">
+
+</div>
+    <section ui-view></section>
+    <script src="js/main.js"></script>
+</body>
+</html>
